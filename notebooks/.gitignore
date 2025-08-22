@@ -1,0 +1,31 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+.env/
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+
+# Data & logs
+data/
+logs/
+*.log
+*.sqlite
+
+# Models
+models/
+*.pt
+*.bin
+*.onnx
+*.h5
+*.pkl
