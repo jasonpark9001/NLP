@@ -1,29 +1,30 @@
-# Jupyter
-.ipynb_checkpoints/
+# Data & logs
+data/**
+!data/.gitkeep
+!data/README.md
 
-# Python cache
+logs/**
+!logs/.gitkeep
+!logs/README.md
+
+# Models
+models/**
+!models/.gitkeep
+!models/README.md
+
+# The rest of your rules…
+.ipynb_checkpoints/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# Virtual envs
 .env/
 .venv/
 venv/
-
-# OS / IDE
 .DS_Store
 Thumbs.db
-
-# Data & logs
-data/
-logs/
 *.log
 *.sqlite
-
-# Models
-models/
 *.pt
 *.bin
 *.onnx
